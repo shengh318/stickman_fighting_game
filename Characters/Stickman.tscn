@@ -1,0 +1,17 @@
+[gd_scene format=3 uid="uid://b4yt3gfmcfqiw"]
+
+[ext_resource type="Script" path="res://Characters/Stickman.gd" id="1_u5c6n"]
+
+[sub_resource type="RectangleShape2D" id="1_khygd"]
+size = Vector2(20, 44)
+
+[node name="Stickman" type="CharacterBody2D"]
+script = ExtResource("1_u5c6n")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="."]
+shape = SubResource("1_khygd")
+position = Vector2(0, -2)
+
+[node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="."]
+scale = Vector2(2, 2)
+offset = Vector2(0, -8)

@@ -1,0 +1,17 @@
+--- Character Sprites ---
+
+Character sprites generated using the Universal LPC Spritesheet Generator
+https://liberatedpixelcup.github.io/Universal-LPC-Spritesheet-Character-Generator/
+
+Sprites by:
+bluecarrot16, Benjamin K. Smith (BenCreating), Stephen Challener (Redshrike),
+JaidynReiman, Eliza Wyatt (ElizaWy), Evert, TheraHedwig, MuffinElZangano,
+Durrani, Sander Frenken (castelonia), dalonedrau, Johannes Sjölund (wulax),
+Nila122, Michael Whitlock (bigbeargames), Matthew Krohn (makrohn),
+Pierre Vigier (pvigier), kcilds/Rocetti/Eredah, drjamgo@hotmail.com
+
+Sprites contributed as part of the Liberated Pixel Cup project from OpenGameArt.org:
+http://opengameart.org/content/lpc-collection
+
+Licenses: CC-BY-SA 3.0, GPL 3.0, OGA-BY 3.0, CC0 (individual assets vary)
+See Sprites/LPC/credits.txt for detailed per-asset credits.

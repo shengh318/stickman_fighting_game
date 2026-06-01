@@ -1,0 +1,46 @@
+[gd_scene load_steps=2 format=3 uid="uid://d6gtolbphva5h"]
+
+[ext_resource type="Script" path="res://Scenes/MainMenu.gd" id="1_hvu5p"]
+
+[node name="MainMenu" type="Control"]
+script = ExtResource("1_hvu5p")
+layout_mode = 3
+anchors_preset = 0
+size = Vector2i(1920, 1080)
+
+[node name="Title" type="Label" parent="."]
+layout_mode = 0
+offset_left = 660.0
+offset_top = 200.0
+offset_right = 1260.0
+offset_bottom = 320.0
+theme_override_font_sizes/font_size = 64
+horizontal_alignment = 1
+text = "Stickman Fighting Game"
+
+[node name="HostButton" type="Button" parent="."]
+layout_mode = 0
+offset_left = 810.0
+offset_top = 450.0
+offset_right = 1110.0
+offset_bottom = 530.0
+theme_override_font_sizes/font_size = 32
+text = "Host Game"
+
+[node name="JoinButton" type="Button" parent="."]
+layout_mode = 0
+offset_left = 810.0
+offset_top = 560.0
+offset_right = 1110.0
+offset_bottom = 640.0
+theme_override_font_sizes/font_size = 32
+text = "Join Game"
+
+[node name="QuitButton" type="Button" parent="."]
+layout_mode = 0
+offset_left = 810.0
+offset_top = 670.0
+offset_right = 1110.0
+offset_bottom = 750.0
+theme_override_font_sizes/font_size = 32
+text = "Quit"
