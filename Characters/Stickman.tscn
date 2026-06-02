@@ -13,5 +13,5 @@ shape = SubResource("1_khygd")
 position = Vector2(0, -2)
 
 [node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="."]
-scale = Vector2(2, 2)
+scale = Vector2(1.4, 1.4)
 offset = Vector2(0, -8)

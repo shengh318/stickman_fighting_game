@@ -23,7 +23,7 @@ process_mode = 3
 script = ExtResource("1_6fwkm")
 
 [node name="Camera2D" type="Camera2D" parent="."]
-position = Vector2(960, 540)
+position = Vector2(960, 850)
 current = true
 
 [node name="Platform_Main" type="StaticBody2D" parent="."]
@@ -33,21 +33,21 @@ position = Vector2(960, 1020)
 shape = SubResource("1")
 
 [node name="Platform_Left" type="StaticBody2D" parent="."]
-position = Vector2(500, 882)
+position = Vector2(280, 900)
 collision_layer = 2
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="Platform_Left"]
 shape = SubResource("2")
 
 [node name="Platform_Right" type="StaticBody2D" parent="."]
-position = Vector2(1420, 882)
+position = Vector2(1640, 900)
 collision_layer = 2
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="Platform_Right"]
 shape = SubResource("3")
 
 [node name="Platform_Top" type="StaticBody2D" parent="."]
-position = Vector2(960, 752)
+position = Vector2(960, 660)
 collision_layer = 2
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="Platform_Top"]
@@ -56,12 +56,14 @@ shape = SubResource("4")
 [node name="KillFloor" type="StaticBody2D" parent="."]
 position = Vector2(960, 1120)
 
-[node name="CollisionShape2D" type="CollisionShape2D" parent="KillFloor"]
-shape = SubResource("5")
-
 [node name="Stickman" parent="." instance=ExtResource("2_px4cb")]
 position = Vector2(960, 980)
 process_mode = 1
+
+[node name="Stickman2" parent="." instance=ExtResource("2_px4cb")]
+position = Vector2(1120, 980)
+process_mode = 1
+is_player = false
 
 [node name="PauseMenu" type="CanvasLayer" parent="."]
 process_mode = 3
